@@ -1,15 +1,33 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import video from "../assets/video2.mp4"; // Import the video
+import posterImage from "../assets/video-poster.jpg"; // Optional: Thumbnail before video loads
 
 const HeroSection = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const playVideo = () => {
+      if (videoRef.current) {
+        videoRef.current
+          .play()
+          .catch((error) => console.error("Autoplay blocked:", error));
+      }
+    };
+
+    playVideo();
+  }, []);
+
   return (
     <div className="relative w-full h-screen overflow-hidden">
       {/* Background Video */}
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
-        className="absolute top-0 left-0 w-full object-cover h-full"
+        playsInline
+        poster={posterImage} // Fallback image for mobile devices
+        className="absolute top-0 left-0 w-full h-full object-cover"
       >
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
@@ -24,11 +42,8 @@ const HeroSection = () => {
           Social and Cultural Committee presents
         </h3>
         <h1 className="text-6xl md:text-9xl font-bold mt-2 text-white drop-shadow-[3px_3px_0px_#2E3192] font-elegant">
-  Flare'25
-</h1>
-        {/* <h2 className="text-3xl md:text-5xl mt-4 uppercase font-Montserrat font-bold text-[#FFC857] ">
-          Symphora: <span className="text-yellow-300 font-semibold">CULTURES ACROSS SPHERE</span>
-        </h2> */}
+          Flare'25
+        </h1>
       </div>
     </div>
   );
