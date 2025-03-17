@@ -26,9 +26,9 @@ const HeroSection = () => {
         <h1 className="text-6xl md:text-9xl font-bold mt-2 text-white drop-shadow-[3px_3px_0px_#2E3192] font-elegant">
   Flare'25
 </h1>
-        <h2 className="text-3xl md:text-5xl mt-4 uppercase font-Montserrat font-bold text-[#FFC857] ">
+        {/* <h2 className="text-3xl md:text-5xl mt-4 uppercase font-Montserrat font-bold text-[#FFC857] ">
           Symphora: <span className="text-yellow-300 font-semibold">CULTURES ACROSS SPHERE</span>
-        </h2>
+        </h2> */}
       </div>
     </div>
   );

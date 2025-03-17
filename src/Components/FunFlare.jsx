@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const FunFlare = () => {
   // Countdown Logic
-  const eventDate = new Date("March 19, 2025 00:00:00").getTime();
+  const eventDate = new Date("March 19, 2025 14:30:00").getTime();
   const [timeLeft, setTimeLeft] = useState("");
 
   useEffect(() => {
@@ -48,6 +48,7 @@ const FunFlare = () => {
       >
     FUN FLARE
       </motion.h2>
+      <h2 className="text-lg md:text-xl uppercase tracking-widest">THEME LAUNCH</h2>
 
       {/* Countdown Timer */}
       <motion.div
