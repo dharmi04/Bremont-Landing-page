@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import video from "../assets/video2.mp4"; // Import the video
-import posterImage from "../assets/video-poster.jpg"; // Optional: Thumbnail before video loads
+import posterImage from "../assets/thumbnal.png"; // Optional: Thumbnail before video loads
 
 const HeroSection = () => {
   const videoRef = useRef(null);
