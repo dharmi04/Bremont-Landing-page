@@ -1,67 +1,43 @@
-import React from 'react';
+import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-400 py-10">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* About Section */}
-          <div>
-            <h3 className="text-white text-lg font-semibold mb-4">About Bremont</h3>
-            <p className="text-gray-400">
-              Bremont is dedicated to crafting luxury timepieces that combine elegance with precision. Discover the perfect watch for every occasion.
-            </p>
-          </div>
+    <footer className="w-full  py-8 text-center shadow-lg">
+      <h3 className="text-2xl md:text-3xl font-semibold text-gray-800">
+        🌍 Follow Us & Stay Updated! 🎭
+      </h3>
 
-          {/* Navigation Links */}
-          <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Quick Links</h3>
-            <ul>
-              <li className="mb-2">
-                <a href="/shop" className="hover:text-purple-500 transition duration-200">Shop</a>
-              </li>
-              <li className="mb-2">
-                <a href="/about" className="hover:text-purple-500 transition duration-200">About Us</a>
-              </li>
-              <li className="mb-2">
-                <a href="/contact" className="hover:text-purple-500 transition duration-200">Contact</a>
-              </li>
-              <li className="mb-2">
-                <a href="/faq" className="hover:text-purple-500 transition duration-200">FAQ</a>
-              </li>
-            </ul>
-          </div>
+      <div className="flex justify-center mt-4 space-x-8">
+        {/* SNC Instagram */}
+        <motion.a
+          href="https://www.instagram.com/social_n_cultural_committee?igsh=ejlocHV2MnM2OXh5"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center space-x-2 text-[#E1306C] hover:text-[#C13584] transition-all duration-300 text-lg md:text-xl font-medium"
+          whileHover={{ scale: 1.1 }}
+        >
+          <FaInstagram className="text-3xl md:text-4xl" />
+          <span>@sncofficial</span>
+        </motion.a>
 
-          {/* Contact & Social Media */}
-          <div>
-            <h3 className="text-white text-lg font-semibold mb-4">Contact Us</h3>
-            <p className="mb-4">
-              Email: <a href="mailto:support@bremont.com" className="hover:text-purple-500 transition duration-200">support@bremont.com</a>
-            </p>
-            <p className="mb-4">Phone: +1 (800) 123-4567</p>
-
-            {/* Social Media Icons */}
-            <div className="flex space-x-4">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition duration-200">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition duration-200">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition duration-200">
-                <i className="fab fa-instagram"></i>
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-purple-500 transition duration-200">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-10 border-t border-gray-700 pt-6 text-center">
-          <p className="text-gray-400">&copy; {new Date().getFullYear()} Bremont. All rights reserved.</p>
-        </div>
+        {/* Flare Instagram */}
+        <motion.a
+          href="https://www.instagram.com/flare_pdeu?igsh=aWN1b3kxMWc3OXV3"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center space-x-2 text-[#E1306C] hover:text-[#C13584] transition-all duration-300 text-lg md:text-xl font-medium"
+          whileHover={{ scale: 1.1 }}
+        >
+          <FaInstagram className="text-3xl md:text-4xl" />
+          <span>@flareofficial</span>
+        </motion.a>
       </div>
+
+      {/* <p className="mt-6 text-gray-700 text-sm">
+        © {new Date().getFullYear()} Symphora | All Rights Reserved.
+      </p> */}
     </footer>
   );
 };

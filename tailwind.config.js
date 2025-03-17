@@ -2,16 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
       fontFamily: {
-        didot: ['GFS Didot', 'serif'], // Custom font family for GFS Didot
-        playfair: ['Playfair Display', 'serif'], // Custom font family for Playfair Display
-        montserrat: ['Montserrat', 'sans-serif'],
+        londrina: ["Londrina Solid", "cursive"], // Add Londrina Solid
+        symphora: ["Lobster", "cursive"], // Aesthetic title font
+        elegant: ["Merriweather", "serif"], // Classy & readable font
+        modern: ["Poppins", "sans-serif"], // Sleek & professional
       },
     },
   },
   plugins: [],
-}
+};
