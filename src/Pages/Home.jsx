@@ -11,7 +11,8 @@ const Home = () => {
     <div>
       <HeroSection />
       {/* <Clouds /> */}
-      <div className="bg-gradient-to-br from-[#E0E7FF] via-[#D6FCF7] to-[#FFE6E2]">
+      {/* <div className="bg-gradient-to-br from-[#1A1A2E] via-[#4ECCA3] to-[#E8F9FD]"> */}
+      <div className="bg-white">
   <AboutUs />
   <FunFlare />
   <Footer />
