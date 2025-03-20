@@ -5,15 +5,21 @@ import image2 from '../assets/image2.jpg';
 
 const AboutUs = () => {
     return (
-        <div className='' id="gallery">
-            <div className='w-3/4 mx-auto flex md:flex-row flex-col'>
+        <div className="relative overflow-hidden" id="gallery">
+            {/* Blurred Circles for Background Effect */}
+            <div className=" absolute top-1/4 left-0 w-48 h-48 bg-purple-400 rounded-full blur-3xl opacity-50 z-8"></div>
+            {/* <div className="absolute top-1/2 left-0 w-48 h-48 bg-orange-400 rounded-full blur-3xl opacity-50 z-8"></div> */}
+            
+
+            {/* Main Content */}
+            <div className='w-3/4 mx-auto flex md:flex-row flex-col relative'>
                 {/* Text Section */}
                 <motion.div 
                     className='md:w-1/2'
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
-                    viewport={{ once: true, amount: 0.2 }}  // Triggers when 20% of the section is visible
+                    viewport={{ once: true, amount: 0.2 }}
                 >
                     <div className='pt-10'>
                         <p className='font-Montserrat uppercase md:text-5xl text-3xl font-semibold text-black pb-5'>ABOUT US</p>
@@ -34,7 +40,7 @@ const AboutUs = () => {
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
-                    viewport={{ once: true, amount: 0.2 }}  // Triggers when 20% of the section is visible
+                    viewport={{ once: true, amount: 0.2 }}
                 >
                     <div className='space-y-4'>
                         <div className="grid grid-cols-3 grid-row-1 space-y-8">
@@ -47,18 +53,23 @@ const AboutUs = () => {
 
                         <div className="grid grid-cols-3 grid-row-1 gap-4">
                             <div></div>
-                            <div><img src={image2} alt="Hawa Mahal" className="w-full h-full rounded-md" /></div>
-                            <div><img src={image1} alt="Bagha Beach" className="w-full h-full rounded-md" /></div>
+                            <div><img src={image2} alt="image 1" className="w-full h-full rounded-md" /></div>
+                            <div><img src={image1} alt="image 1" className="w-full h-full rounded-md" /></div>
                         </div>
 
                         <div className="grid grid-cols-3 grid-row-1 gap-4">
-                            <div><img src={image2} alt="Ooty" className="w-full h-[150px] rounded-md" /></div>
-                            <div><img src={image1} alt="Darjeeling" className="w-full h-[150px] rounded-md" /></div>
-                            <div><img src={image2} alt="Statue of Unity" className="w-full h-[150px] rounded-md" /></div>
+                            <div><img src={image2} alt="image 1" className="w-full h-[150px] rounded-md" /></div>
+                            <div><img src={image1} alt="image 1" className="w-full h-[150px] rounded-md" /></div>
+                            <div><img src={image2} alt="image 1" className="w-full h-[150px] rounded-md" /></div>
                         </div>
+
                     </div>
                 </motion.div>
+                
+
             </div>
+            <div className="absolute bottom-0.5 md:bottom-1/4 right-0 w-48 h-48 bg-blue-400 rounded-full blur-3xl opacity-50 z-8"></div>
+                {/* <div className="absolute pt-2 bottom-1/4 right-0 w-48 h-48 bg-blue-900 rounded-full blur-3xl opacity-50 z-8"></div> */}
         </div>
     );
 };

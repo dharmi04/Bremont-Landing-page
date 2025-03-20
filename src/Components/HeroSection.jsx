@@ -44,6 +44,12 @@ const HeroSection = () => {
         <h1 className="text-6xl md:text-9xl font-bold mt-2 text-white drop-shadow-[3px_3px_0px_#2E3192] font-elegant">
           Flare'25
         </h1>
+        <h1 className="text-3xl md:text-4xl font-bold mt-2 text-white font-elegant 
+               bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 
+               inline-block text-transparent bg-clip-text">
+    SYMPHORA - CULTURES ACROSS SPHERE
+</h1>
+
       </div>
     </div>
   );

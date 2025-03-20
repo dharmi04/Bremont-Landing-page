@@ -5,6 +5,7 @@ import AboutUs from '../Components/AboutUs'
 import HeroSection from '../Components/HeroSection'
 import FunFlare from '../Components/FunFlare'
 import Footer from '../Components/Footer'
+import Events from '../Components/Events'
 
 const Home = () => {
   return (
@@ -14,7 +15,8 @@ const Home = () => {
       {/* <div className="bg-gradient-to-br from-[#1A1A2E] via-[#4ECCA3] to-[#E8F9FD]"> */}
       <div className="bg-white">
   <AboutUs />
-  <FunFlare />
+  {/* <FunFlare /> */}
+  <Events />
   <Footer />
 </div>
 

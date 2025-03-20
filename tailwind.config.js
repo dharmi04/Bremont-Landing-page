@@ -11,6 +11,7 @@ export default {
         symphora: ["Lobster", "cursive"], // Aesthetic title font
         elegant: ["Merriweather", "serif"], // Classy & readable font
         modern: ["Poppins", "sans-serif"], // Sleek & professional
+        bebas: ["Bebas Neue", "Caveat"]
       },
     },
   },
