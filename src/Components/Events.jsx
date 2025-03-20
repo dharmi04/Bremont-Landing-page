@@ -11,7 +11,7 @@ const Events = () => {
             <div className="absolute top-[2000px] left-10  w-48 h-48 bg-blue-500 opacity-30 rounded-full blur-3xl z-8"></div>
 
             <h2 className="text-center text-4xl font-bold mb-6">
-                <span className="text-pink-500 font-bebas">Upcoming Event</span>
+                <span className="text-pink-500 font-bebas">Upcoming Events</span>
             </h2>
             <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 font-[Poppins] ">
                 {eventsData.map((event, index) => (
