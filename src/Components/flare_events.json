@@ -1,121 +1,69 @@
 [
     {
-        "Club Name":"Jharokha",
-        "Event Name":"Kavyanjali",
+        "Club Name":"RANG ",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://forms.gle/76kKRugcZjBmpC5D9"
     },
     {
-        "Club Name":"The Medium ",
-        "Event Name":"Family Fued 3.0",
+        "Club Name":"SPICMACAY",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://forms.gle/CVd9LUDBCXunSy9t7"
     },
     {
-        "Club Name":"Civiquniti ",
-        "Event Name":"Mock Elections",
+        "Club Name":"PANACHE",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSe0f54ZVBk_uDI-g4DIEghdejRqUtca8OuBMXjkDDKuZ8tTXQ/viewform?usp=dialog"
     },
     {
-        "Club Name":"MithakShaastra ",
-        "Event Name":"mytho hunt",
+        "Club Name":"CIVIQUENITI ",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSeW7rCUa8E7MdrRmnWbr_IZYOpAvTw_5cbAmjA-JRJpVs7X0g/viewform?usp=dialog"
     },
     {
-        "Club Name":"Malang",
-        "Event Name":"Salsa workshop ",
+        "Club Name":"ASHRAY  ",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://forms.gle/3Zjy2ZsNeAm8aLzc6"
     },
     {
-        "Club Name":"Tattvam",
-        "Event Name":"Sanskrithon ",
+        "Club Name":"AJIA BUNKER ",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSdrsdBzVYg6aj8qhCHa4PgwXk2IPRiUy6a5LfIQJmFOZJtxjA/viewform?usp=header"
     },
     {
-        "Club Name":"SPICMACAY PDEU",
-        "Event Name":"Terracotta Treasures",
+        "Club Name":"DEB SOC ",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSdPmMJiLXSVfCds6_3dZF_fXq6XNODfNFWJgAHKNpNrTJm1VA/viewform?usp=header"
     },
     {
-        "Club Name":"DebSoc - The Debate Society of PDEU",
-        "Event Name":"Red Army, Wright Army",
+        "Club Name":"ROTRACT",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSc452o1NSI3kVKNFctbyIj4d2-Tineq4CzZMBMHYD23uNhagQ/viewform"
     },
     {
-        "Club Name":"Offbeat ",
-        "Event Name":"Shaam e mehfil ",
+        "Club Name":"JHAROKHA ",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSdVMZthc1nXDNSZSCD-PsWrAf69AL5yWkc_dBLXa0ZoBiiC9A/viewform"
     },
     {
-        "Club Name":"Ajia Bunker",
-        "Event Name":"Weeb Wars",
+        "Club Name":"GROW ",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSeCcn3Jb36ZBgpD9rBfnuumxKHlmyso_XKXnj0RkZfv_JJssQ/viewform"
     },
     {
-        "Club Name":"Ashray",
-        "Event Name":"Roast or Defend: Safari Edition",
+        "Club Name":"MALANG",
         "Image":"https:\/\/example.com\/default-image.jpg",
         "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
-    },
-    {
-        "Club Name":"Grow: The Savoir Faire Club of PDEU",
-        "Event Name":"LinkedIn Workshop ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
-        "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
-    },
-    {
-        "Club Name":"Rotaract Club of PDEU",
-        "Event Name":"Escape Room",
-        "Image":"https:\/\/example.com\/default-image.jpg",
-        "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
-    },
-    {
-        "Club Name":"Rang",
-        "Event Name":"Fluid Art Workshop",
-        "Image":"https:\/\/example.com\/default-image.jpg",
-        "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
-    },
-    {
-        "Club Name":"Daastan",
-        "Event Name":"Aahvan : Nukkad Natak Competition ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
-        "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
-    },
-    {
-        "Club Name":"Zaayka",
-        "Event Name":"Daawat-E- Dastoor ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
-        "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
-    },
-    {
-        "Club Name":"Panache",
-        "Event Name":"AMETHYST ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
-        "Date":"TBD",
-        "Registration Link":"https:\/\/example.com\/register"
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSfX-6BHXLlGt0k4_xHCua8mOEECkD5lJHiaHcoJ8GKuxR3CdA/formResponse?pli=1"
     }
+    
 ]
