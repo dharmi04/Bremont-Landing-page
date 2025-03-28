@@ -1,67 +1,69 @@
+
 [
     {
         "Club Name":"RANG ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/RANG.jpg",
         "Date":"TBD",
         "Registration Link":"https://forms.gle/76kKRugcZjBmpC5D9"
     },
+
     {
         "Club Name":"SPICMACAY",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/spicamacy.png",
         "Date":"TBD",
         "Registration Link":"https://forms.gle/CVd9LUDBCXunSy9t7"
     },
     {
         "Club Name":"PANACHE",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/Panache.jpg",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSe0f54ZVBk_uDI-g4DIEghdejRqUtca8OuBMXjkDDKuZ8tTXQ/viewform?usp=dialog"
     },
     {
         "Club Name":"CIVIQUENITI ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/civi.jpg",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSeW7rCUa8E7MdrRmnWbr_IZYOpAvTw_5cbAmjA-JRJpVs7X0g/viewform?usp=dialog"
     },
     {
         "Club Name":"ASHRAY  ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/Ashray.png",
         "Date":"TBD",
         "Registration Link":"https://forms.gle/3Zjy2ZsNeAm8aLzc6"
     },
     {
         "Club Name":"AJIA BUNKER ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/Ajia_Bunker_colour.jpg",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSdrsdBzVYg6aj8qhCHa4PgwXk2IPRiUy6a5LfIQJmFOZJtxjA/viewform?usp=header"
     },
     {
         "Club Name":"DEB SOC ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/debsoc.jpg",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSdPmMJiLXSVfCds6_3dZF_fXq6XNODfNFWJgAHKNpNrTJm1VA/viewform?usp=header"
     },
     {
         "Club Name":"ROTRACT",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/Rotract.jpg",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSc452o1NSI3kVKNFctbyIj4d2-Tineq4CzZMBMHYD23uNhagQ/viewform"
     },
     {
         "Club Name":"JHAROKHA ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/Jharokha .png",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSdVMZthc1nXDNSZSCD-PsWrAf69AL5yWkc_dBLXa0ZoBiiC9A/viewform"
     },
     {
         "Club Name":"GROW ",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/grow.jpg",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSeCcn3Jb36ZBgpD9rBfnuumxKHlmyso_XKXnj0RkZfv_JJssQ/viewform"
     },
     {
         "Club Name":"MALANG",
-        "Image":"https:\/\/example.com\/default-image.jpg",
+        "Image":"/assets/Malang.PNG",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSfX-6BHXLlGt0k4_xHCua8mOEECkD5lJHiaHcoJ8GKuxR3CdA/formResponse?pli=1"
     }

@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import eventsData from "./flare_events.json";
+import eventsData from '../data/flare_events.json';
 
 const Events = () => {
-    const [visibleEvents, setVisibleEvents] = useState(6);
-
-    const handleSeeMore = () => {
-        setVisibleEvents(prevVisible => prevVisible + 3);
-    };
-
     return (
         <div className="relative bg-gradient-to-br from-gray-50 to-blue-50 py-16 px-4" id="events">
             {/* Background Blurred Circles */}
@@ -24,7 +18,7 @@ const Events = () => {
                 </h2>
 
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
-                    {eventsData.slice(0, visibleEvents).map((event, index) => (
+                    {eventsData.map((event, index) => (
                         <motion.div
                             key={index}
                             className="bg-white group rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
@@ -36,7 +30,7 @@ const Events = () => {
                                 <img 
                                     src={event.Image || "https://via.placeholder.com/400x250?text=Event+Image"} 
                                     alt={event["Club Name"]} 
-                                    className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110" 
+                                    className="w-full h-80 p-4 transition-transform duration-300 group-hover:scale-110" 
                                 />
                             </div>
                             
@@ -44,12 +38,7 @@ const Events = () => {
                                 <h3 className="text-2xl font-semibold text-gray-800 mb-2 group-hover:text-pink-600 transition-colors">
                                     {event["Club Name"]}
                                 </h3>
-                                
-                                <div className="flex items-center text-gray-600 mb-4">
-                                    <span className="mr-2">📅</span>
-                                    <span>{event.Date || "Date To Be Announced"}</span>
-                                </div>
-                                
+
                                 {event["Registration Link"] ? (
                                     <a 
                                         href={event["Registration Link"]} 
@@ -70,19 +59,6 @@ const Events = () => {
                         </motion.div>
                     ))}
                 </div>
-
-                {visibleEvents < eventsData.length && (
-                    <div className="text-center mt-12">
-                        <button 
-                            onClick={handleSeeMore}
-                            className="px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white 
-                            rounded-full font-semibold hover:from-blue-600 hover:to-purple-700 
-                            transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-                        >
-                            See More Events →
-                        </button>
-                    </div>
-                )}
             </div>
         </div>
     );
