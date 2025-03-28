@@ -39,63 +39,25 @@ const AboutUs = () => {
 
                 {/* Image Gallery Section */}
                 <motion.div 
-                    className='md:w-1/2 w-full mt-10 md:mt-0'
+                    className='md:w-1/2 w-full mt-10 md:mt-0 flex space-x-6'
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1, ease: "easeOut" }}
                     viewport={{ once: true, amount: 0.2 }}
                 >
-                    <div className='space-y-6'>
-                        <div className="grid grid-cols-3 gap-4">
-                            <div className="col-span-1 col-start-3">
-                                <img 
-                                    src={image1} 
-                                    alt="Flare Event" 
-                                    className="w-full h-auto rounded-xl shadow-lg hover:scale-105 transition-transform duration-300" 
-                                />
-                            </div>
-                        </div>
-
-                        <div className="grid grid-cols-3 gap-4">
-                            <div className="col-span-1 col-start-2">
-                                <img 
-                                    src={image2} 
-                                    alt="PDEU Cultural Event" 
-                                    className="w-full h-auto rounded-xl shadow-lg hover:scale-105 transition-transform duration-300" 
-                                />
-                            </div>
-                            <div className="col-span-1">
-                                <img 
-                                    src={image1} 
-                                    alt="Student Performance" 
-                                    className="w-full h-auto rounded-xl shadow-lg hover:scale-105 transition-transform duration-300" 
-                                />
-                            </div>
-                        </div>
-
-                        <div className="grid grid-cols-3 gap-4">
-                            <div className="col-span-1">
-                                <img 
-                                    src={image2} 
-                                    alt="Art Exhibition" 
-                                    className="w-full h-[150px] object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-300" 
-                                />
-                            </div>
-                            <div className="col-span-1">
-                                <img 
-                                    src={image1} 
-                                    alt="Music Performance" 
-                                    className="w-full h-[150px] object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-300" 
-                                />
-                            </div>
-                            <div className="col-span-1">
-                                <img 
-                                    src={image2} 
-                                    alt="Dance Competition" 
-                                    className="w-full h-[150px] object-cover rounded-xl shadow-lg hover:scale-105 transition-transform duration-300" 
-                                />
-                            </div>
-                        </div>
+                    <div className="w-1/2">
+                        <img 
+                            src={image1} 
+                            alt="Flare Event" 
+                            className="w-full h-auto rounded-xl shadow-lg object-cover hover:scale-105 transition-transform duration-300" 
+                        />
+                    </div>
+                    <div className="w-1/2 mt-24">
+                        <img 
+                            src={image2} 
+                            alt="PDEU Cultural Event" 
+                            className="w-full h-auto rounded-xl shadow-lg object-cover hover:scale-105 transition-transform duration-300 " 
+                        />
                     </div>
                 </motion.div>
             </div>
