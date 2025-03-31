@@ -66,6 +66,29 @@
         "Image":"/assets/Malang.PNG",
         "Date":"TBD",
         "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSfX-6BHXLlGt0k4_xHCua8mOEECkD5lJHiaHcoJ8GKuxR3CdA/formResponse?pli=1"
+    },
+    {
+        "Club Name":"MITHAK SHASTRA  ",
+        "Image":"/assets/MithakShaastra.png",
+        "Date":"TBD",
+        "Registration Link":"https://docs.google.com/forms/d/1wCAG0IerSdgRH9BDqi3Dv2TPEAgqbXLN84FlVnFEaCc/viewform"
+    },
+    {
+        "Club Name":"MEDIUM  ",
+        "Image":"/assets/medium.jpg",
+        "Date":"TBD",
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLScwJV8D3toKhn74kbxqRBmr7ql-0pMuOGj-fFn4X1Oqxp89Mw/formResponse"
+    },
+    {
+        "Club Name":"ZAAYKA ",
+        "Image":"/assets/zaykaa.png",
+        "Date":"TBD",
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSenWDD-d5WhyDSj7S-doszNkxbydkDyptshYNSxcf3e-Q5e_g/viewform"
+    },
+    {
+        "Club Name":"TATTVAM",
+        "Image":"/assets/tattvam.png",
+        "Date":"TBD",
+        "Registration Link":"https://docs.google.com/forms/d/e/1FAIpQLSdHMH1W61SbC4MXSIBSOV8s-T761j0N1HTgvWSO40-_yvrshw/viewform"
     }
-    
 ]
